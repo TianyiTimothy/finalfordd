@@ -9,33 +9,66 @@
 	<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
 </head>
 
-<body>
+<body id="body">
 	<header id="header">
+		<h2 class="hide">header</h2>
+		<span class="hide"> with site name ( also author name ) and navigation</span>
 		<span id="sitename">Tianyi</span>
-		<span id="links">
-			<a href="#">HOME</a>
-			<a href="#">RESUME</a>
-		</span>
+		<nav id="nav">
+			<span id="links">
+				<a href="#">HOME</a>
+				<a href="#">RESUME</a>
+			</span>
+		</nav>
 	</header>
 	<main id="main">
-		<div id="leftblock">
-		<div id="text"></div></div>
-	<div id="cube">
 
-		<div class="side front">1</div>
+		<h1 class="hide">main page </h1>
+		<div id="textblock">
+				<span class="hide">Hi, My name is Tianyi, and this is a page of a floating cube.
+						each surface saying a positive word and they are: Trustful,
+						Ideal, Advisable, Noetic, Youthful, Incredible. The first letter combined is the my name.
+				</span>
+			
+			<div id="text"></div>
+		</div>
+		<div id="finaltextblock">
+				<span class="hide">This text block display my name Tianyi.</span>
+			
+			<div id="finaltext"></div>
+		</div>
+		<div id="cube">
+			<span class="hide">The cube</span>
 
-		<div class="side back">6</div>
+			<div class="side bottom">
+				<span class="adj">Incredible</span>
+			</div>
+			<div class="side top">
+				<span class="adj">Youthful</span>
+			</div>
 
-		<div class="side right">4</div>
+			<div class="side left">
+				<span class="adj">Noetic</span>
+			</div>
 
-		<div class="side left">3</div>
+			<div class="side right">
+				<span class="adj">Advisable</span>
+			</div>
+			<div class="side back">
+				<span class="adj">Ideal</span>
+			</div>
 
-		<div class="side top">5</div>
 
-		<div class="side bottom">2</div>
+			<div class="side front">
+				<span class="adj">Trustful</span>
+			</div>
+		</div>
+	</main>
+	<footer id="footer">
 
-	</div></main>
-	<footer id="footer"></footer>
+		<h2 class="hide">footer</h2>
+		<div>Copy right, 2019 Tianyi, Humber College.</div>
+	</footer>
 </body>
 
 </html>
