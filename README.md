@@ -1,6 +1,11 @@
 # cube animation
 a magic cube animation
 
+## description
+built with:
+- pure javascript
+- imagination
+
 ## usage
 click anywhere to interact with the cube.
 
