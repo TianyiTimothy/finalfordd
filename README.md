@@ -1,6 +1,9 @@
 # cube animation
 a magic cube animation
 
+## live
+https://tianyi.codes/projects/cube/index.html
+
 ## description
 built with:
 - pure javascript
