@@ -2,7 +2,7 @@
 a magic cube animation
 
 ## live
-https://tianyi.codes/projects/cube/index.html
+https://tianyi.codes/projects/cube
 
 ## description
 built with:
